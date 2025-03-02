@@ -1,38 +1,3 @@
-#Q1:
-# King_name = str(input("Enter the king name: ")).title()
-# print(f"Reversed name: {King_name[::-1]}")
-
-#Q2:
-# snack = str(input("Enter the flavour of ice-creame: ")).lower()
-# print(snack.replace("chocolate" ,""))
-# print(snack.replace("Chocolate","Vanila"))
-
-#Q3:
-
-
-#Q4:
-# intro = "Apple Inc., founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, is a global technology leader known for its innovative products, sleek designs, and groundbreaking advancements in consumer electronics. Headquartered in Cupertino, California, Apple has revolutionized the tech industry with iconic products like the Macintosh computer, iPod, iPhone, iPad, Apple Watch, and MacBook. The company's iOS ecosystem, combined with services like the App Store, iCloud, and Apple Music, creates a seamless user experience across devices. Apple is renowned for its focus on design, quality, and privacy, which has fostered a loyal customer base worldwide. As one of the most valuable companies in the world, Apple continues to drive technological evolution and shape the future of digital experiences."
-# print(intro.count("Apple"))
-
-#Q5:
-# intro = "Apple Inc., founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, is a global technology leader known for its innovative products, sleek designs, and groundbreaking advancements in consumer electronics. Headquartered in Cupertino, California, Apple has revolutionized the tech industry with iconic products like the Macintosh computer, iPod, iPhone, iPad, Apple Watch, and MacBook. The company's iOS ecosystem, combined with services like the App Store, iCloud, and Apple Music, creates a seamless user experience across devices. Apple is renowned for its focus on design, quality, and privacy, which has fostered a loyal customer base worldwide. As one of the most valuable companies in the world, Apple continues to drive technological evolution and shape the future of digital experiences."
-# print(intro.replace("Apple","Google"))
-
-#Q6:
-# rainB = {"Violet, Indigo, Blue, Green, Yellow, Orange, Red"}
-
-# a = rainB.startswith()
-# print(a)
-
-
-# ---------------------------------------------------------------------------- Banking system ----------------------------------------------------------------------------------
-# import mysql.connector
-
-# connection = mysql.connector.connect(host="localhost",user="root", password="",database="bank")
-    
-# if connection.is_connected():
-#         print("Connection to MySQL database successful!")
-
 print("--------- Welcome to the Bank System --------")
 menu = """
 1. Create an account
